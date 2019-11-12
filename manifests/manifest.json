@@ -1,0 +1,372 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "https://fragmentarium.ms/metadata/iiif/F-8wrt/manifest.json",
+	"@type": "sc:Manifest",
+	"label": "Basel, Universitätsbibliothek, N I 6:19",
+	"metadata": [
+		{
+			"label": "Location",
+			"value": "Basel"
+		},
+		{
+			"label": "Collection Name",
+			"value": "Universitätsbibliothek"
+		},
+		{
+			"label": "Shelfmark",
+			"value": "N I 6:19"
+		},
+		{
+			"label": "Title",
+			"value": "Vita Victurii Cenomanensis"
+		},
+		{
+			"label": "Fragmentarium ID",
+			"value": "F-8wrt"
+		},
+		{
+			"label": "Material",
+			"value": "Parchment"
+		},
+		{
+			"label": "Place of origin",
+			"value": "Fulda"
+		},
+		{
+			"label": "Document Type",
+			"value": "Fragment"
+		},
+		{
+			"label": "Number of Fragment Items",
+			"value": "1 leaf (trimmed)"
+		},
+		{
+			"label": "Current Dimensions (in mm)",
+			"value": "215 x 140 mm"
+		},
+		{
+			"label": "Online Since",
+			"value": "2017-08-25"
+		},
+		{
+			"label": "Size/Ruler",
+			"value": "Ruler on Image"
+		},
+		{
+			"label": "Date of origin",
+			"value": "834 – 866 CE"
+		},
+		{
+			"label": "Places",
+			"value": "Fulda, Ger. (Benedictine monastery)"
+		},
+		{
+			"label": "Tags",
+			"value": "Topic: Hagiographical Text"
+		},
+		{
+			"label": "Century",
+			"value": "9th century"
+		},
+		{
+			"label": "Text Language",
+			"value": "Latin"
+		},
+		{
+			"label": "Script Type",
+			"value": "Carolingian Minuscule"
+		}
+	],
+	"description": [
+		{
+			"@value": "[no description]",
+			"@language": "en"
+		}
+	],
+	"license": "http://creativecommons.org/publicdomain/mark/1.0/",
+	"attribution": [
+		"Fragmentarium – International Digital Research Lab for Medieval Manuscript Fragments",
+		{}
+	],
+	"logo": "https://fragmentarium.ms/img/fragmentarium-logo-sm-square.png",
+	"service": "https://fragmentarium.ms/search/",
+	"seeAlso": "https://fragmentarium.ms/overview/F-8wrt",
+	"within": "https://fragmentarium.ms/search?sQueryString=C-bfwo",
+	"sequences": [
+		{
+			"@id": "https://fragmentarium.ms/metadata/iiif/F-8wrt/sequence/Sequence-601.json",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "https://fragmentarium.ms/metadata/iiif/F-8wrt/canvas/F-8wrt/e-codices_ubb-N-I-0006-19_r_max.jpg.json",
+					"@type": "sc:Canvas",
+					"label": "e-codices_ubb-N-I-0006-19_r_max",
+					"height": 5315,
+					"width": 3986,
+					"images": [
+						{
+							"@id": "https://fragmentarium.ms/metadata/iiif/F-8wrt/annotation/F-8wrt/e-codices_ubb-N-I-0006-19_r_max.jpg.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://fragmentarium.ms/metadata/iiif/F-8wrt/canvas/F-8wrt/e-codices_ubb-N-I-0006-19_r_max.jpg.json",
+							"resource": {
+								"@id": "https://fragmentarium.ms:443/loris/F-8wrt/e-codices_ubb-N-I-0006-19_r_max.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 5315,
+								"width": 3986,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://fragmentarium.ms:443/loris/F-8wrt/e-codices_ubb-N-I-0006-19_r_max.jpg",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://fragmentarium.ms/metadata/iiif/F-8wrt/canvas/F-8wrt/e-codices_ubb-N-I-0006-19_v_max.jpg.json",
+					"@type": "sc:Canvas",
+					"label": "e-codices_ubb-N-I-0006-19_v_max",
+					"height": 5315,
+					"width": 3986,
+					"images": [
+						{
+							"@id": "https://fragmentarium.ms/metadata/iiif/F-8wrt/annotation/F-8wrt/e-codices_ubb-N-I-0006-19_v_max.jpg.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://fragmentarium.ms/metadata/iiif/F-8wrt/canvas/F-8wrt/e-codices_ubb-N-I-0006-19_v_max.jpg.json",
+							"resource": {
+								"@id": "https://fragmentarium.ms:443/loris/F-8wrt/e-codices_ubb-N-I-0006-19_v_max.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 5315,
+								"width": 3986,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://fragmentarium.ms:443/loris/F-8wrt/e-codices_ubb-N-I-0006-19_v_max.jpg",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://fragmentarium.ms/metadata/iiif/F-8wrt/canvas/F-8wrt/e-codices_ubb-N-I-0006-19_MassS_max.jpg.json",
+					"@type": "sc:Canvas",
+					"label": "e-codices_ubb-N-I-0006-19_MassS_max",
+					"height": 5315,
+					"width": 3986,
+					"images": [
+						{
+							"@id": "https://fragmentarium.ms/metadata/iiif/F-8wrt/annotation/F-8wrt/e-codices_ubb-N-I-0006-19_MassS_max.jpg.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://fragmentarium.ms/metadata/iiif/F-8wrt/canvas/F-8wrt/e-codices_ubb-N-I-0006-19_MassS_max.jpg.json",
+							"resource": {
+								"@id": "https://fragmentarium.ms:443/loris/F-8wrt/e-codices_ubb-N-I-0006-19_MassS_max.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 5315,
+								"width": 3986,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://fragmentarium.ms:443/loris/F-8wrt/e-codices_ubb-N-I-0006-19_MassS_max.jpg",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://fragmentarium.ms/metadata/iiif/F-8wrt/canvas/F-8wrt/e-codices_ubb-N-I-0006-19_ProfilS_max.jpg.json",
+					"@type": "sc:Canvas",
+					"label": "e-codices_ubb-N-I-0006-19_ProfilS_max",
+					"height": 5315,
+					"width": 3986,
+					"images": [
+						{
+							"@id": "https://fragmentarium.ms/metadata/iiif/F-8wrt/annotation/F-8wrt/e-codices_ubb-N-I-0006-19_ProfilS_max.jpg.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://fragmentarium.ms/metadata/iiif/F-8wrt/canvas/F-8wrt/e-codices_ubb-N-I-0006-19_ProfilS_max.jpg.json",
+							"resource": {
+								"@id": "https://fragmentarium.ms:443/loris/F-8wrt/e-codices_ubb-N-I-0006-19_ProfilS_max.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 5315,
+								"width": 3986,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://fragmentarium.ms:443/loris/F-8wrt/e-codices_ubb-N-I-0006-19_ProfilS_max.jpg",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "http://a15f06fb-da84-4e01-8d78-8d682acd68b5",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 2550,
+					"width": 2259,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://cbe5944a-a20f-4b04-a619-f1ffe30f02fa",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ids.lib.harvard.edu/ids/iiif/47174892/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ids.lib.harvard.edu/ids/iiif/47174892",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"regionSquare",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"bitonal",
+												"gray",
+												"color"
+											],
+											"formats": [
+												"jpg",
+												"tif",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 2550,
+								"width": 2259
+							},
+							"on": "http://a15f06fb-da84-4e01-8d78-8d682acd68b5"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://689dbbfc-bc37-4d4a-b8f4-32b912fc8112",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 19274,
+					"width": 17086,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://7ded2a23-9741-496e-9776-7b264bc60d4e",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://media.nga.gov/iiif/public/objects/1/2/3/6/1236-primary-0-nativeres.ptif/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://media.nga.gov/iiif/public/objects/1/2/3/6/1236-primary-0-nativeres.ptif",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 19274,
+								"width": 17086
+							},
+							"on": "http://689dbbfc-bc37-4d4a-b8f4-32b912fc8112"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://200c2d1a-223c-4e35-9704-3e4f3e48f5ea",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 7847,
+					"width": 9895,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://a8820f3c-76cf-4daf-acd6-782a2fa4f27f",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://media.nga.gov/iiif/public/objects/4/6/4/7/1/46471-primary-0-nativeres.ptif/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://media.nga.gov/iiif/public/objects/4/6/4/7/1/46471-primary-0-nativeres.ptif",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 7847,
+								"width": 9895
+							},
+							"on": "http://200c2d1a-223c-4e35-9704-3e4f3e48f5ea"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"viewingDirection": "left-to-right"
+}
